@@ -44,8 +44,8 @@ def read_raw_img(path):
 
 for ii in range(4):
     print(states[ii])
-    pathDEM='ClipedSample_4Areas/' + dempaths[ii] # DEM
-    pathA='ClipedSample_4Areas/' + aeropaths[ii] # Aerial photo
+    pathDEM='ClippedSample_4Areas/' + dempaths[ii] # DEM
+    pathA='ClippedSample_4Areas/' + aeropaths[ii] # Aerial photo
 
 
     dataDEM, labelDEM, nameDEM = read_raw_img(pathDEM) # DEM->(num of samples, size, size)->3D
